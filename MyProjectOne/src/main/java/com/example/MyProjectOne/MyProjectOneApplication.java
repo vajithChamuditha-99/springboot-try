@@ -8,8 +8,9 @@ public class MyProjectOneApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyProjectOneApplication.class, args);
-		String name="Vajith";
-		System.out.println("Hello "+ name + ". " + goodMorning() );
+		String fName="Vajith";
+		String sName="Chamuditha";
+		System.out.println("Hello "+ fName + " " + sName + ". " + goodMorning() );
 	}
 
 	private static String goodMorning() {

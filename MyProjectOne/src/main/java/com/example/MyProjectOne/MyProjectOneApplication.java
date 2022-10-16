@@ -10,10 +10,14 @@ public class MyProjectOneApplication {
 		SpringApplication.run(MyProjectOneApplication.class, args);
 		String fName="Vajith";
 		String sName="Chamuditha";
-		System.out.println("Hello "+ fName + " " + sName + ". " + goodMorning() );
+		System.out.println("Hello "+ fName + " " + sName + welcome() + ". " + goodMorning() );
 	}
 
 	private static String goodMorning() {
 		return "Good Morning!!!";
+	}
+
+	private static String welcome() {
+		return "Welcome bhaai.";
 	}
 }
